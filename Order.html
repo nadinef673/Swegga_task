@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="order.css" />
+    <script src="order.js"></script>
+    <title>swegga</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <img src="swegga.jpg" height="40%" />
+      </div>
+
+      <h1 style="color: red">FREE Delivery</h1>
+
+      <div class="grid-container">
+        <div class="grid-item"><a href="home.html">Home</a></div>
+        <div class="grid-item"><a href="srevices.html">Services</a></div>
+        <div class="grid-item"><a href="products.html">Products</a></div>
+        <div class="grid-item">
+          <a href="order status.html">Order Status</a>
+        </div>
+        <div class="grid-item"><a href="contact us.html">Contact Us</a></div>
+      </div>
+
+      <h2 style="color: blue">Product Summary</h2>
+
+      <table style="width: 100%">
+        <tr>
+          <th>Description</th>
+          <th>Size</th>
+          <th>Colour</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+        <tr>
+          <td><a href="hgdfhgefg">Female Ski Jackets</a></td>
+          <td>
+            <select name="size" id="size1" onchange="myfunc1()">
+              <option value="R150.95">Small</option>
+              <option value="R180.95">Medium</option>
+              <option value="R249.95">Large</option>
+            </select>
+          </td>
+          <td>
+            <select name="colors" id="colors1" onchange="myfunc3()">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="black">Black</option>
+              <option value="white">White</option>
+            </select>
+          </td>
+          <td id="price1">R150.95</td>
+          <td><input type="text" id="quantity1" name="quantity" size="5" /></td>
+          <td id="total1">R301.90</td>
+        </tr>
+        <tr>
+          <td><a href="httpshdfhdv">Male Ski Jackets</a></td>
+          <td>
+            <select name="size" id="size2" onchange="myfunc2()">
+              <option value="R180.95">Small</option>
+              <option value="R229.95">Medium</option>
+              <option value="R259.95">Large</option>
+            </select>
+          </td>
+          <td>
+            <select name="colors" id="colors2">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="black">Black</option>
+              <option value="white">White</option>
+            </select>
+          </td>
+          <td id="price2">R180.95</td>
+          <td><input type="text" id="quantity2" name="quantity" size="5" /></td>
+          <td>R723.80</td>
+        </tr>
+        <tr>
+          <td colspan="4">Click to confirm and process your order</td>
+          <td><button type="button">Total Price</button></td>
+          <td>R1025.70</td>
+        </tr>
+      </table>
+      <br /><br /><br /><br />
+    </div>
+    <footer>
+      <p>© 2014 Swegga Fashion - Nadine Jodie Fortuin</p>
+    </footer>
+  </body>
+</html>
